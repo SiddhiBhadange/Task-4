@@ -14,9 +14,141 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <!-- start of main container -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex  "style=" font-size:4vh; font-weight:bold; color:#313d44;"href="#">Dashboard</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+            <a class="navbar-brand" style=" color:#313d44" href="#">4.40 PM , 20 April </a>
+            <form class="d-flex ms-auto" role="search">
+              <input class="form-control me-2 " type="search" placeholder="Search"  aria-label="Search">
+    
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="display: flex; place-items: center;">
+              <li class="nav-item ">
+                <a class="nav-link " style="font-size: 15px; display: flex; place-items: center; gap: 8px;" href="#"
+                  style="display: flex;padding: 30px;">
+                  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="laptop.png" style="height:30px; width:30px;">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li> 
+              <i class="bi bi-bell ms-1 " 
+                    style=" background-color: rgb(233, 226, 227);  height: 40px; width: 40px; display: flex; justify-content: center;  place-items: center; "></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="d-flex" >
+        <div class="row">
+          <div class="d-flex flex-column justify-content-between  col-auto min-vh-100 " style="background-color: #fffefb;">
+            <div>
+    
+              <!--2. response d-none d-sm-inline -->
+    
+              <ul class="nav" style="list-style: none; ">
+    
+                <li class="nav-item" style="padding-top: 18px; ">
+                  <a href="#" class="nav-link text-black " aria-current="page" style="display: flex;">
+                   
+                    <h5 class="ms-3 d-sm-inline">Logo</h5>
+                  </a>
+                </li>
+              </ul>
+    
+              <!-- using ul-variation -->
+              <!-- 1. -->
+              <ul class="nav nav-pills flex-column mt-4 mt-sm-0" id="menu" >
+                <li class="nav-item my-sm-1 my-2">
+                  <a href="#" class="nav-link text-black text-center text-sm-start" aria-current="page"
+                    style=" display: flex;">
+                    <i class="bi bi-pie-chart-fill"></i>
+                    <span class="ms-2  d-sm-inline">Dashboard</span>
+                  </a>
+                </li> 
+    
+                <!-- 2. -->
+                <li class="nav-item my-sm-1 my-2">
+                  <a href="#" class="nav-link text-black" aria-current="page" style=" display: flex;">
+                    <i class="bi bi-bar-chart-line"></i>
+                    <span class="ms-2  d-sm-inline">Leaderboard</span>
+                  </a>
+                </li>
+    
+                <!-- 3. -->
+                <li class="nav-item  my-sm-1 my-2 disabled">
+                  <a href="#sidemenu" data-bs-toggle="collapse" class="nav-link text-black" aria-current="page"
+                    style=" display: flex;">
+                    <i class="bi bi-bag"></i>
+                    <span class="ms-2  d-sm-inline">Products</span>
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                </li>
+    
+                <!-- 4. drowpdown -->
+                <ul class="nav collapse ms-1 flex-column" id="sidemenu" data-bs-parent="#menu">
+                  <li class="nav-item ">
+                    <a href="#" class="nav-link text-black" aria-current="page">Item1</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="#" class="nav-link text-black">Item2</a>
+                  </li>
+                </ul>
+                <!-- 5. -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black" aria-current="page" style="display: flex;">
+                    <i class="bi bi-graph-up"></i>
+                    <span class="ms-2  d-sm-inline">Sales Report</span>
+                  </a>
+                </li>
+                <!-- 6. -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black" aria-current="page" style="display: flex;">
+                    <i class="bi bi-chat-left-dots"></i>
+                    <span class="ms-2  d-sm-inline">Messages</span>
+                  </a>
+                </li>
+                <!-- 7. -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black" aria-current="page" style="display: flex;">
+                    <i class="bi bi-gear"></i>
+                    <span class="ms-2  d-sm-inline">Settings</span>
+                  </a>
+                </li>
+                <!-- 8. -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black" aria-current="page" style="display: flex;">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <span class="ms-2  d-sm-inline">Sign Out</span>
+                  </a>
+                </li>
+              </ul>
+              <!-- list done         -->
+    
+        
+            </div>
+    
+    
+            <!-- d-none d-sm-inline used for giving the responsiveness to the classes for all the side elements -->
+    
+            <!-- ds5-dropdown-anchor used -->
+    
+    
+          </div>
+    
+        </div>
+    
 
         <!-- started task 4 -->
         <div class="container1"
