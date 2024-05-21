@@ -2,10 +2,25 @@ b{
     color:  #363636; 
     Font:Poppins;
     font-weight : 500;  
-    font-size:  14px; 
-     line-height:21px;
+     
+     line-height:12px;
      letter-spacing:3%;
 }
 ul b{
     float: right ;
+}
+
+ul .clr{
+    color:#8B8B8B;
+   
+Font:
+Poppins;
+font-weight:
+400;
+font-size: 
+8px;
+line-height: 
+12px;
+letter-spacing: 
+3%;
 }
