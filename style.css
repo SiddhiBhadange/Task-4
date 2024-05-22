@@ -24,3 +24,7 @@ line-height:
 letter-spacing: 
 3%;
 }
+
+.mov{
+    display: flex;flex-direction: column;align-items: center;
+}
