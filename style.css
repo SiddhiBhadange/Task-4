@@ -50,3 +50,9 @@ letter-spacing:
         top:0px;
     }
 }
+.sidebar{
+    box-shadow: 0px 0px 15px 10px #00000040;
+}
+.card:hover{
+    transform: scale(1.15);
+  }
